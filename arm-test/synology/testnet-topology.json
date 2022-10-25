@@ -1,0 +1,9 @@
+{
+  "Producers": [
+    {
+      "addr": "relays-new.bcc-testnet.dev.blockchain-company.io",
+      "port": 3001,
+      "valency": 2
+    }
+  ]
+}

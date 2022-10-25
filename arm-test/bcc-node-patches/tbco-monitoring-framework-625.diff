@@ -1,0 +1,13 @@
+diff --git a/tbco-monitoring.cabal b/tbco-monitoring.cabal
+index cbf1dc7e..beb4f593 100644
+--- a/tbco-monitoring.cabal
++++ b/tbco-monitoring.cabal
+@@ -77,7 +77,7 @@ library
+     exposed-modules:   Bcc.BM.Observer.Monadic
+                        Bcc.BM.Observer.STM
+
+-  if os(linux)
++  if os(linux) || os(android)
+     exposed-modules:   Bcc.BM.Counters.Linux
+   if os(windows)
+     exposed-modules:   Bcc.BM.Counters.Windows

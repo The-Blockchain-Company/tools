@@ -1,0 +1,8 @@
+id	search-data.js	/^    id: 'id',$/;"	p	class:indexCfg.doc
+field	search-data.js	/^    field: ['title', 'content'],$/;"	p	class:indexCfg.doc
+store	search-data.js	/^    store: ['title', 'href'],$/;"	p	class:indexCfg.doc
+focusSearchFieldOnKeyPress	search.js	/^  function focusSearchFieldOnKeyPress(event) {$/;"	f
+isHotkey	search.js	/^  function isHotkey(character) {$/;"	f
+init	search.js	/^  function init() {$/;"	f
+search	search.js	/^  function search() {$/;"	f
+loadScript	search.js	/^  function loadScript(src, callback) {$/;"	f
